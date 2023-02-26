@@ -1,0 +1,11 @@
+.contacts {  
+  border-bottom: 1px solid $clr-base-lt;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-height: 120px;
+  }  
+}

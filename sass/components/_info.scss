@@ -1,0 +1,37 @@
+.info {
+  background-color: $clr-base-lt;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+    min-height: 50px;
+  }
+
+  &__item {
+    margin-right: 30px;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    font-size: $fs-base;
+    color: $clr-base;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+

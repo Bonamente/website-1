@@ -1,0 +1,38 @@
+.main-nav {
+  &__container {
+    padding-left: 217px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+
+    min-height: 78px;   
+  }
+
+  &__item {
+    margin-right: 40px;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      font-size: $fs-6;   
+  
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+
+    &--current {
+      a:hover,
+      a:focus {
+        text-decoration: none;
+      }      
+    }
+  }
+}

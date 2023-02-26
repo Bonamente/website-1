@@ -1,0 +1,17 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+
+  &__image {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  &__text {
+    color: $clr-primary;
+    font-size: $fs-2;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  }
+}

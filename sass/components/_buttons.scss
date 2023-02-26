@@ -1,0 +1,61 @@
+.button {
+  display: inline-block;
+  padding: 0;
+  
+  text-align: center;
+
+  line-height: 0;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+
+  outline: none;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in;
+
+  &--large {   
+    min-width: 170px;
+    padding: 18px 2px;
+  }
+
+  &--medium {
+    min-width: 130px;
+    padding-top: 9px;
+    padding-bottom: 9px;    
+  }
+  
+  &--contained {
+    background-color: $clr-primary;    
+  }
+
+  &--outlined {
+    border: 2px solid $clr-primary;
+
+    &:hover,
+    &:focus {
+      color: $clr-white;
+      background-color: $clr-primary;
+    }
+
+    &:active {
+      background-color: $clr-primary-dk;
+    }
+  }
+  
+  &--outlined-white {
+    color: $clr-white;
+    border: 2px solid $clr-white;
+
+    &:hover,
+    &:focus {
+      color: $clr-base-dk;
+      background-color: $clr-white;
+    }
+
+    &:active {
+      color: $clr-base-dk;
+      background-color: $clr-primary-lt;
+    }
+  }   
+}

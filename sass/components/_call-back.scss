@@ -1,0 +1,9 @@
+.call-back {
+  display: inline-flex;
+  align-items: center;
+
+  &__phone {
+    font-size: $fs-6;
+    margin-right: 40px;
+  }
+}

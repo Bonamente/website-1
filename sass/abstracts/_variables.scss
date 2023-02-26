@@ -4,8 +4,15 @@ $clr-base-dk: #000000;
 $clr-white: #ffffff;
 
 $clr-primary: #66c05d;
-
+$clr-primary-lt: lighten($clr-primary, 10%);
+$clr-primary-dk: darken($clr-primary, 10%);
 
 $ff-base: 'Roboto', sans-serif;     
 $fs-base: 14px;
 
+$fs-1: 48px;
+$fs-2: 36px;
+$fs-3: 24px;
+$fs-4: 21px;
+$fs-5: 18px;
+$fs-6: 16px;
