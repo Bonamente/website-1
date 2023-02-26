@@ -1,0 +1,49 @@
+@import '../components/form';
+
+.subscription {
+  position: relative;
+
+  display: flex;
+
+  width: 540px;
+  min-height: 212px;
+  padding: 35px 40px;
+
+  color: $clr-white;
+  background-color: $clr-primary;
+
+  &::after {
+    position: absolute;
+    top: 52px;      
+    right: 45px;      
+
+    content: url('/assets/img/envelope.svg');
+  }
+
+  &__inner-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 250px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-size: $fs-5;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  &__text {
+    margin-bottom: 26px;
+
+    font-size: $fs-base;
+    line-height: 20px;
+  }
+
+  &__form {
+    margin-top: auto;
+  }
+}
+

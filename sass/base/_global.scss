@@ -57,4 +57,15 @@ img {
 .container {  
   max-width: 1110px;
   margin: 0 auto;
+
+  &--brief-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.brief-info-wrapper {
+  padding-bottom: 132px;
+  background-color: $clr-base-lt;  
 }
