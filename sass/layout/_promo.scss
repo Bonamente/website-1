@@ -1,0 +1,32 @@
+.promo {
+ min-height: 604px;
+ padding-top: 192px;
+
+ color: $clr-white;
+
+ background-image: url("../../assets/img/promo-bg.jpg");
+ background-color: $clr-primary;
+ background-repeat: no-repeat;
+ background-position: center;
+
+ &__inner-wrapper {
+  max-width: 308px;
+ }
+
+ &__header {
+  margin-bottom: 40px;
+
+  font-size: $fs-1;
+  letter-spacing: -1.5px;
+ }
+
+ &__text {
+  margin-bottom: 43px;
+
+  line-height: 20px;
+
+  strong {
+    font-weight: 400;
+  }
+ }
+}
