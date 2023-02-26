@@ -5,9 +5,18 @@
   padding-bottom: 100px;
   background-color: $clr-base-lt;
 
+  @media (max-width: 1200px) {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }  
+
   &__header {
     position: relative;
     min-height: 67px;
+
+    @media (max-width: 576px) {
+      text-align: center;
+    }
 
     &::after {
       position: absolute;
@@ -15,6 +24,14 @@
       right: 44px;      
 
       content: url('/assets/img/car.svg');
+
+      @media (max-width: 1200px) {
+        right: 0;
+      }
+
+      @media (max-width: 576px) {
+        display: none;
+      }
     }
   }
 
@@ -29,10 +46,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
+    @media (max-width: 1200px) {
+      gap: 15px;      
+    }
+
+    @media (max-width: 992px) {
+      justify-content: space-evenly;
+    }
   }
 
   &__item {
     display: flex;
   }
-
 }

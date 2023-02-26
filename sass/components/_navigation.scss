@@ -1,6 +1,14 @@
 .main-nav {
   &__container {
     padding-left: 217px;
+
+    @media (max-width: 1200px) {      
+      padding-left: 0;      
+    }
+
+    @media (max-width: 576px) {      
+      padding: 0 15px;      
+    }
   }
 
   &__list {
@@ -8,12 +16,20 @@
     flex-wrap: wrap;    
     align-items: center;
 
-    min-height: 78px;   
+    min-height: 78px;
+
+    @media (max-width: 1200px) {      
+      justify-content: center;    
+    }
   }
 
   &__item {
     margin-right: 40px;
     text-align: center;
+
+    @media (max-width: 576px) {      
+      margin-right: 15px;    
+    }
 
     &:last-child {
       margin-right: 0;

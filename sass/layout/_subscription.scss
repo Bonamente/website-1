@@ -12,12 +12,40 @@
   color: $clr-white;
   background-color: $clr-primary;
 
+  @media (max-width: 1200px) {
+    max-width: 480px;
+  }
+
+  @media (max-width: 992px) {
+    max-width: 370px;
+  }
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+  }
+
   &::after {
     position: absolute;
     top: 52px;      
     right: 45px;      
 
     content: url('/assets/img/envelope.svg');
+
+    @media (max-width: 1200px) {
+      right: 30px; 
+    }
+
+    @media (max-width: 992px) {
+      display: none;
+    }
+
+    @media (max-width: 767px) {
+      display: block;
+    }
+
+    @media (max-width: 510px) {
+      display: none;
+    }
   }
 
   &__inner-wrapper {

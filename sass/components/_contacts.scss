@@ -3,9 +3,19 @@
 
   &__container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 
     min-height: 120px;
+
+    @media (max-width: 1200px) {
+      min-height: 100px;
+    }
+
+    @media (max-width: 576px) {       
+      justify-content: center;
+      padding: 15px 0;
+    }
   }  
 }

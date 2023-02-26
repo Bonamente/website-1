@@ -12,10 +12,18 @@
     align-items: center;
   
     min-height: 50px;
+    
+    @media (max-width: 576px) {
+      justify-content: center;
+    }
   }
 
   &__item {
     margin-right: 30px;
+
+    @media (max-width: 576px) {
+      margin-right: 10px;
+    }
   
     &:last-child {
       margin-right: 0;
@@ -32,6 +40,3 @@
     }
   }
 }
-
-
-
