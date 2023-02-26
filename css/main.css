@@ -399,6 +399,10 @@ img {
   overflow: hidden;
 }
 
+main {
+  flex-grow: 1;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -733,4 +737,50 @@ img {
 .invitation__button {
   width: 170px;
   margin-top: auto;
+}
+
+.socials__list {
+  display: flex;
+  justify-content: space-between;
+  width: 236px;
+}
+
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #66c05d;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.socials__link:hover, .socials__link:focus {
+  outline: none;
+  background-color: #efefef;
+}
+.socials__link:active {
+  background-color: #333333;
+}
+
+.footer__container--top {
+  display: flex;
+  align-items: center;
+  min-height: 120px;
+}
+.footer__address {
+  margin-left: 205px;
+}
+.footer__call-back {
+  margin-left: auto;
+}
+.footer__copyright {
+  color: #828282;
+  background-color: #efefef;
+}
+.footer__container--bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
 }/*# sourceMappingURL=main.css.map */

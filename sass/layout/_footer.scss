@@ -1,0 +1,32 @@
+@import '../components/socials';
+
+.footer {
+
+  &__container--top {
+    display: flex;
+    align-items: center;    
+    min-height: 120px;
+  }
+
+  &__address {
+    margin-left: 205px;
+  }
+
+  &__call-back {
+    margin-left: auto;
+  } 
+
+  &__copyright {
+    color: $clr-footer-copyright;
+    background-color: $clr-base-lt;
+  }
+
+  &__container--bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 64px;
+  }
+}
+
+

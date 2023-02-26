@@ -1,0 +1,29 @@
+.socials__list {
+  display: flex;
+  justify-content: space-between;
+  width: 236px;  
+}
+
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 45px;
+  height: 45px;
+
+  border: 2px solid $clr-primary;
+  border-radius: 50%;
+
+  background-color: $clr-white;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    background-color: $clr-base-lt;
+  }
+
+  &:active {
+    background-color: $clr-base;
+  }
+}
