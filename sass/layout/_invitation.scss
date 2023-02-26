@@ -1,0 +1,39 @@
+.invitation {
+  display: flex;
+
+  width: 540px;
+  min-height: 212px;
+  padding: 35px 40px;
+
+  color: $clr-white;
+  background-color: $clr-primary;
+
+  &__inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    min-width: 250px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-size: $fs-5;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  &__text {
+    margin-bottom: 26px;
+
+    font-size: $fs-base;
+    line-height: 20px;
+  }
+
+  &__button {
+    width: 170px;
+    margin-top: auto;
+  }
+}
+
