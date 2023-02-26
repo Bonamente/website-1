@@ -1,10 +1,11 @@
-.button {
-  display: inline-block;
-  padding: 0;
+.button { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;  
   
-  text-align: center;
-
   line-height: 0;
+
   border: none;
   border-radius: 20px;
   background-color: transparent;
@@ -15,18 +16,28 @@
   transition: all 0.2s ease-in;
 
   &--large {   
-    min-width: 170px;
-    padding: 18px 2px;
+    width: 170px;
+    min-height: 40px;  
   }
 
   &--medium {
-    min-width: 130px;
-    padding-top: 9px;
-    padding-bottom: 9px;    
+    width: 130px;
+    min-height: 35px;   
   }
   
   &--contained {
-    background-color: $clr-primary;    
+    color: $clr-white;
+    background-color: $clr-primary;
+    
+    &:hover,
+    &:focus {
+      background-color: $clr-primary-dk;      
+    }
+
+    &:active {
+      color: $clr-base-dk;
+      font-weight: 700;     
+    }
   }
 
   &--outlined {

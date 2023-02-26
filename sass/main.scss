@@ -5,12 +5,17 @@
 @import 'base/typography';
 @import 'base/global';
 
+@import 'components/buttons';
 
 @import 'layout/header';
 @import 'layout/promo';
+@import 'layout/goods';
+@import 'layout/subscription';
+@import 'layout/invitation';
+
+
 // @import 'layout/footer';
 
-@import 'components/buttons';
 
 // @import 'pages/home';
 
