@@ -662,7 +662,7 @@ main {
   min-height: 604px;
   padding-top: 192px;
   color: #ffffff;
-  background-image: url("assets/img/promo-bg.jpg");
+  background-image: url("../assets/img/promo-bg.jpg");
   background-color: #66c05d;
   background-repeat: no-repeat;
   background-position: center;
@@ -772,7 +772,7 @@ main {
   position: absolute;
   top: -12px;
   right: 44px;
-  content: url("/assets/img/car.svg");
+  content: url("../assets/img/car.svg");
 }
 @media (max-width: 1200px) {
   .goods__header::after {
@@ -864,7 +864,7 @@ main {
   position: absolute;
   top: 52px;
   right: 45px;
-  content: url("/assets/img/envelope.svg");
+  content: url("../assets/img/envelope.svg");
 }
 @media (max-width: 1200px) {
   .subscription::after {
